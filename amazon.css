@@ -94,9 +94,7 @@ i{
     display: flex
 
 }
-.border:hover{
-    border: 0.8px solid black;
-}
+
 select{
     height: 30px;
 }
