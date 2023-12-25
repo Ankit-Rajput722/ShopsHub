@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+    height: 80px;
+    width: 100vw;
+    font-size: 2rem;
+    font-style: bold;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.cross{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    height: 60px;
+    width: 60px;
+}
+.carthead{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    width: 100vw;
+    font-size: 1.2rem;
+}
+.cartitems{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    /* margin-bottom: 1rem; */
+    padding: 1rem;
+    padding-bottom: 2rem;
+
+}
+img{
+    height: 80px;
+}
+.column1{
+    
+    margin-top: 0px;
+    margin-right: 1rem;
+    width: 20rem;
+    /* height: 150px; */
+    display: flex;
+    flex-direction: column;
+}
+.column2{
+    margin-top: 0px;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+row-gap: 1.8rem;
+    width: 20%;
+}
+.column2 p{
+    margin-top: 1rem;
+}
+.column3{
+    row-gap: 0.4rem;
+    /* margin-top: 0px; */
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+}
+.column3 h4{
+    margin-left: 15px;
+}
+.column3 img{
+    height: 75px;
+    margin-bottom: 0.1rem;
+}
+.column4{
+    margin-top: 0px;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+row-gap: 1.8rem;
+    width: 20%;
+}
+.bill{
+    margin-left: 600px;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    justify-content: center;
+}
+.bills{
+    border-bottom: 0.05rem solid black;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 600px;
+    background-color: rgb(138, 130, 130);
+    color: white;
+    height: 30px;
+    width: 400px;
+}
+button:hover{
+    background-color: green;
+}
+
+@media only screen and (max-width: 480px){
+    .bill{
+        margin-left: 50px;
+    }
+        button{
+        margin-left: 50px;
+    }
+    .cross{
+        margin-left: 200px;
+    }
+    .column1{
+        width: 15rem;
+    }
+    .column2{
+        margin-top: 12px;
+        row-gap: 0.8rem;
+    }
+    .column3{
+        height: 375px;
+        row-gap: 0.4rem;
+    }
+    .column4{
+        margin-top: 13px;
+        row-gap: 0.8rem;
+        margin-left: 20px;
+    }
+}
