@@ -1,4 +1,6 @@
 body{
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,7 +97,7 @@ row-gap: 1.8rem;
     width: 20%;
 }
 .bill{
-    margin-left: 600px;
+    margin-left: 750px;
     height: 300px;
     width: 400px;
     display: flex;
@@ -114,7 +116,7 @@ button{
     align-self: center;
     padding: 1rem;
     padding-bottom: 2rem;
-    margin-left: 600px;
+    margin-left: 750px;
     background-color: rgb(138, 130, 130);
     color: white;
     height: 30px;
@@ -124,18 +126,37 @@ button:hover{
     background-color: green;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 478px){
+    h4{
+        margin-left: 10px;
+    }
+    .column4 h4{
+        margin-left: -25px;
+    }
+    .column4 p{
+        margin-left: -5px;
+    }
     .bill{
-        margin-left: 50px;
+        margin-left: 20px;
+        width: 300px;
     }
         button{
         margin-left: 50px;
     }
     .cross{
-        margin-left: 200px;
+        margin-left: 100px;
+    }
+    .cartitems{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 100%;
+        width: 100vw;
+        margin-left: -20px;
     }
     .column1{
-        width: 15rem;
+        width: 12rem;
+        margin-right: 0px;
+        
     }
     .column2{
         margin-top: 12px;
@@ -149,5 +170,9 @@ button:hover{
         margin-top: 13px;
         row-gap: 0.8rem;
         margin-left: 20px;
+    }
+    button{
+        margin-left: 20px;
+        width: 300px;
     }
 }
