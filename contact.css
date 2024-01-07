@@ -1,0 +1,145 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+background-color: rgb(55, 54, 54);
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    font-size: 2rem;
+    font-style: bold;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+
+}
+.logo{
+
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.cross{
+    margin-right: 10px;
+}
+.abimage{
+    border: 2rem solid white;
+    border-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box{
+    display: flex;
+    margin-top: -22px;
+    height: 500px;
+    /* width: 100%; */
+    border: 2rem solid white;
+    border-top: 0px;
+}
+.left{
+    color: white;
+    margin: 1rem;
+    padding: 2rem;
+    /* background-color: antiquewhite; */
+    height: 400px;
+    width: 45%;
+}
+.left h6{
+    font-size: 1.2rem;
+}
+.right{
+    row-gap: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 2rem;
+    height: 400px;
+    width: 45%;
+    /* background-color: aqua; */
+}
+input{
+    padding-left: 1rem;
+
+    height: 40px;
+}
+textarea{
+    padding: 1rem;
+}
+button{
+    font-size: 1rem;
+    border: 3px solid white;
+    color: white;
+    background-color: black;
+    height: 40px;
+}
+
+@media (max-width: 478px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin-top: -22px;
+        height: 700px;
+        border: 2rem solid white;
+        border-top: 0px;
+    }
+    .left{
+
+        color: white;
+        margin: 0.5rem;
+        
+        padding: 0.05rem;
+        height: 200px;
+        width: 100%;
+    }
+    .left h6{
+
+        font-size: 0.8rem;
+    }
+    .right{
+
+        row-gap: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0.1rem;
+        margin-top: 7rem;
+        padding: 0.2rem;
+        height: 300px;
+        width: 100%;
+    }
+    input{
+    width: 19rem;
+        height: 40px;
+    }
+    textarea{
+        padding: 0.1rem;
+        width: 20rem;
+    }
+    button{
+        align-self: center;
+        width: 19rem;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

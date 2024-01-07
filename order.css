@@ -1,0 +1,224 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    font-size: 2rem;
+    font-style: bold;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+
+}
+.logo{
+
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.profile i{
+    padding: 0.7rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.profile{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.cross{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    height: 60px;
+    width: 60px;
+}
+.carthead{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:40px;
+    width: 100vw;
+    font-size: 1.2rem;
+}
+.order1{
+    margin-top: 3rem;
+    padding: 1rem;
+   margin-left:3rem;
+   margin-right:3rem;
+display: flex;
+   
+    background-color: rgb(230, 246, 246);
+    height: 200px;
+    
+}
+.order2{
+    margin-top: 2rem;
+
+    padding: 1rem;
+    margin-left:3rem;
+    margin-right:3rem;
+ display: flex;
+    
+     background-color: rgb(230, 246, 246);
+     height: 200px;
+}
+.order3{
+    margin-top: 2rem;
+
+    padding: 1rem;
+    margin-left:3rem;
+    margin-right:3rem;
+ display: flex;
+    
+     background-color: rgb(230, 246, 246);
+     height: 200px;
+}
+
+
+
+.left{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    gap: 4rem;
+    display: flex;
+
+    height: 180px;
+    width: 65%;
+    margin-left: 3rem;
+}
+.product img{
+    margin-left: 1rem;
+    height: 170px;
+    width: 150px;
+
+}
+.time{
+    color: gray;
+    margin-top: -10px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    height: 170px;
+    width: 25%;
+}
+.right p{
+    color: black;
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+    margin-top: -0.5rem;
+    font-size: 1.8rem;
+   
+}
+.top{
+    border: 1px solid rgba(17, 17, 240, 0.792);
+}
+p:hover{
+    color: white;
+    background-color: rgb(133, 204, 216);
+    border: 1px solid rgba(17, 17, 240, 0.792);;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 478px){
+    .navbar{
+         font-size: 1.5rem;
+        }
+    .profile i{
+        padding: 0.3rem;
+       
+    }
+    .profile{
+font-size:1rem ;    
+    
+        margin-right: 10px;
+    }
+    .cross{
+         margin-left: 60px;
+         }
+    .carthead{
+     font-size: 0.8rem;
+    }
+    .order1{
+        margin-top: 3rem;
+        padding: 0.5rem;
+       margin-left:0.5rem;
+       margin-right:0.5rem;
+        
+    }
+    .order2{
+        margin-top: 3rem;
+        padding: 0.5rem;
+       margin-left:0.5rem;
+       margin-right:0.5rem;
+        
+    }
+    .order3{
+        margin-top: 3rem;
+        padding: 0.5rem;
+       margin-left:0.5rem;
+       margin-right:0.5rem;
+        
+    }
+    .left{
+    
+        margin: 0.1rem;
+        padding: 0.1rem;
+        gap: 1rem;
+    font-size: 0.6rem;
+        height: 180px;
+        width: 45%;
+        
+    }
+    .product img{
+        height: 170px;
+        width: 60px;
+    
+    }
+    .time{
+        color: gray;
+        margin-top: -10px;
+    }
+    .right{
+    
+        margin: 0.1rem;
+        padding: 0.1rem;
+        height: 170px;
+        width: 55%;
+    }
+    .right p{
+        color: black;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    
+        margin-top: 0.4rem;
+        font-size: 1.2rem;
+       
+    }
+
+
+    
+
+}
