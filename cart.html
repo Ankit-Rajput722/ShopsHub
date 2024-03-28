@@ -42,24 +42,45 @@
 
            <div class="column3">
             <h4>Quantity</h4>
+            
+            <div class="q1">
+                <p id="minus1"><i class="fa-solid fa-minus"></i></p>
+                  <p id="qa" >1</p>
+               <p id="plus1"><i class="fa-solid fa-plus"></i></p>
+            </div>
+            
+            <div class="q2">
+                <p id="minus2"><i class="fa-solid fa-minus"></i></p>
+                  <p id="qb" >1</p>
+                        <p id="plus2"><i class="fa-solid fa-plus"></i></p>
+            </div>
+            <div class="q3">
+                <p id="minus3"><i class="fa-solid fa-minus"></i></p>
+       <p id="qc" >1</p>
+                       <p id="plus3"><i class="fa-solid fa-plus"></i></p>
+            </div>
+            <div class="q4">
+                <p id="minus4"><i class="fa-solid fa-minus"></i></p>
+       <p id="qd" >1</p>
+                        <p id="plus4"><i class="fa-solid fa-plus"></i></p>
+            </div>
+            <!-- <img src="quantity.png" alt="">
             <img src="quantity.png" alt="">
-            <img src="quantity.png" alt="">
-            <img src="quantity.png" alt="">
-            <img src="quantity.png" alt="">
+            <img src="quantity.png" alt=""> -->
            </div>
            <div class="column4">
             <h4>Total</h4>
-            <p>Rs 500</p>
-            <p>Rs 800</p>
-            <p>Rs 200</p>
-            <p>Rs 100</p>
+            <p id="r1">500</p>
+            <p id="r2">800</p>
+            <p id="r3">200</p>
+            <p id="r4">100</p>
 
            </div>
     </div>
     <div class="bill">
         <div class="bill1 bills">
-            <h4>Subtotal:</h4>
-            <p>Rs 1600</p>
+            <h4 id="check1"> Subtotal:</h4>
+            <p id="total">00</p>
         </div>
         <div class="bill2 bills">
             <h4>Sales Tax:</h4>
@@ -70,10 +91,12 @@
             <p style="text-decoration:underline">Add Coupon</p>
         </div>
         <div class="bill4 bills">
-            <h4>Grand Total:</h4>
-            <h3>Rs 1750</h3>
+            <h4>Grand Total (in Rs):</h4>
+            <h3 id="GrandT">1750</h3>
         </div>
     </div>
     <button>Proceed to Checkout</button>
 </body>
+<script src="cart.js"></script>
+
 </html>
