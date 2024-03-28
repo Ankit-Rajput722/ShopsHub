@@ -79,6 +79,37 @@ row-gap: 1.8rem;
     flex-direction: column;
     height: 380px;
 }
+.q1{
+    display: flex;
+    column-gap: 18px;
+  border: 2px solid rgb(229, 219, 219);
+  padding: 2px;
+  margin-top: 1rem;
+}
+.q2{
+    display: flex;
+    column-gap: 18px;
+  border: 2px solid rgb(229, 219, 219);
+  padding: 2px;
+  margin-top: 1rem;
+
+}
+.q3{
+    display: flex;
+    column-gap: 18px;
+  border: 2px solid rgb(229, 219, 219);
+  padding: 2px;
+  margin-top: 1rem;
+
+}
+
+.q4{
+    display: flex;
+    column-gap: 18px;
+  border: 2px solid rgb(229, 219, 219);
+  padding: 2px;
+  margin-top: 1rem
+}
 .column3 h4{
     margin-left: 15px;
 }
