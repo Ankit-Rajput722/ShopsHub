@@ -8,8 +8,8 @@ let rb=800;
 let rc=200;
 let rd=100;
 
-let total1=  0;
-let GrandTotal=0;
+let total1=  1600;
+let GrandTotal=1750;
 
 qa=document.getElementById("qa");
 qb=document.getElementById("qb");
@@ -41,6 +41,7 @@ document.getElementById("plus4").onclick = function() {p4fun()};
 
 
 function p1fun(){
+   if(qa1>=1){
     qa1++; 
     qa.innerText=qa1;
     
@@ -49,10 +50,12 @@ function p1fun(){
 
     cfun();
     gfun();
+   }
   
 }
 function m1fun(){
-    qa1--;
+   if(qa1>1)
+   { qa1--;
     qa.innerText=qa1;
    
     ra=ra-500;
@@ -60,19 +63,23 @@ function m1fun(){
 
     cfun();
     gfun();
+   }
 }
 function p2fun(){
+   if(qa2>=1){
     qa2++;
-   qb.innerText=qa2;
-
-   rb=rb+800;
-   r2.innerText=rb;
-
-   cfun();
-   gfun();
+    qb.innerText=qa2;
+ 
+    rb=rb+800;
+    r2.innerText=rb;
+ 
+    cfun();
+    gfun();
+   }
 }
 function m2fun(){
-    qa2--;
+    if(qa2>1){
+        qa2--;
     qb.innerText=qa2;
 
     rb=rb-800;
@@ -80,9 +87,11 @@ function m2fun(){
    
     cfun();
     gfun();
+    }
 }
 function p3fun(){
-    qa3++;
+    if(qa3>=1){
+        qa3++;
  qc.innerText=qa3;
 
  rc=rc+200;
@@ -90,8 +99,10 @@ function p3fun(){
 
  cfun();
  gfun();
+    }
 }
 function m3fun(){
+   if(qa3>1){
     qa3--;  
     qc.innerText=qa3;
    
@@ -100,8 +111,10 @@ function m3fun(){
 
  cfun();
  gfun();
+   }
 }
 function p4fun(){
+   if(qa4>=1){ 
     qa4++;
     qd.innerText=qa4;
 
@@ -109,8 +122,11 @@ function p4fun(){
     r4.innerText=rd;
     cfun();
     gfun();
+
+   }
 }
 function m4fun(){
+ if(qa4>1){
     qa4--;
     qd.innerText=qa4;
 
@@ -118,6 +134,7 @@ function m4fun(){
     r4.innerText=rd;
     cfun();
     gfun();
+ }
    
 }
 function cfun(){
